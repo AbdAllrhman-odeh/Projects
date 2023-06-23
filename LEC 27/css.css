@@ -1,0 +1,25 @@
+body,pre
+{
+	font-size:23px;
+	font-family:Cursive;
+	margin-left:100px;
+}
+
+div
+{
+	background:#95baf7;
+	color:white;
+}
+h1,h3
+{
+	margin-left:100px;
+	display:inline;
+}
+b
+{
+	margin-left:1000px;
+}
+a:link
+{
+	text-decoration:none;
+}

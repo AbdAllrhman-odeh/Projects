@@ -1,0 +1,49 @@
+body
+{
+	font-size:20px;
+	font-family:Noto;
+	
+}
+
+pre
+{
+	margin-left:40px;
+}
+
+a:visited
+{
+	color:green;
+	text-decoration:none;
+	background:transparent;
+}
+a:link
+{
+	color:red;
+	text-decoration:underline;
+	background:black;
+}
+a:hover
+{
+	color:yellow;
+	background:blue;
+	text-decoration:none;
+	display:inline-block;
+	padding:15px;
+	text-align:center;
+}
+a:active
+{
+	color:gray;
+	background:transparent;
+	text-decoration:none;
+}
+h3
+{
+	text-align:center;
+}
+
+strong
+{
+	border:1px solid gray;
+	background:#eaedf0;
+}
