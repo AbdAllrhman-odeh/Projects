@@ -1,0 +1,44 @@
+ul{
+	list-style-type:none;
+	background:#103551;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+li a{
+	float:left;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	padding:141px;
+	display:block;
+}
+body{
+	font-size:23px;
+	margin-left:50px;
+	margin-right:50px;
+}
+#lon:hover{
+	background-image:url('london.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#wash:hover{
+	background-image:url('wash.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#paris:hover{
+	background-image:url('paris.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#tok:hover{
+	background-image:url('tokyo.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.heading{
+	color:#103551;
+	font-family:cursive;
+}
