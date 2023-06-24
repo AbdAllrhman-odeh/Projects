@@ -1,0 +1,29 @@
+body{
+	font-size:23px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	background:#1e4263;
+	font-family:cursive;
+}
+li a{
+	float:right;
+	text-align:center;
+	color:white;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+li a:hover{
+	color:#e5e5e5;
+}
+mark{
+	background:#1e4263;
+	color:white;
+}

@@ -1,0 +1,220 @@
+<!DCOTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="cssfile.css">
+<title>quize</title>
+<style>
+body{
+	margin-right:240px;
+}
+h1{
+	color:#1e4263;
+	text-align:center;
+}
+h3{
+	display:inline;
+}
+.color{
+	color:#1e4263;
+}
+	
+</style>
+</head>
+<body>
+	<form>
+		<h1>
+			welcome to our quize!
+		</h1>
+		<p>
+			<mark>
+				Note:
+			</mark>
+			The right choice is only one choice!
+			<br><br>
+			<mark>
+				Note:
+			</mark>
+			You have only 10 minutes!
+		</p>
+		<hr>
+		<h3>
+			<mark>Q1:</mark>
+		</h3>
+		<span>
+			HTML stands for:
+		</span>
+		<br>
+		<input type="radio" id="hyper text markup language" name="html" value="true">
+		<label for="hyper text markup language">hyper text markup language</label>
+		<br>
+		<input type="radio" id="hyper text and not a markup language" name="html" value="false">
+		<label for="hyper text and not a markup language">hyper text and not a markup language</label>
+		<hr>
+		<h3>
+			<mark>Q2:</mark>
+		</h3>
+		<span>
+			CSS stands for:
+		</span>
+		<br>
+		<input type="radio" id="cascading style sheet" name="css" value="true">
+		<label for="cascading style sheet">cascading style sheet</label>
+		<br>
+		<input type="radio" id="external file cs" name="css" value="false">
+		<label for="external file cs">external file cs</label>
+		<hr>
+		<h3>
+			<mark>Q3:</mark>
+		</h3>
+		<span>
+			JS stands for:
+		</span>
+		<br>
+		<input type="radio" id="java script" name="js" value="true">
+		<label for="java script">java script</label>
+		<br>
+		<input type="radio" id="java elements" name="js" value="false">
+		<label for="java elements">java elements</label>
+		<hr>
+				<h3>
+			<mark>Q4:</mark>
+		</h3>
+		<span>
+			PHP stands for:
+		</span>
+		<br>
+		<input type="radio" id="Hypertext Preprocessor" name="php" value="true">
+		<label for="Hypertext Preprocessor">Hypertext Preprocessor</label>
+		<br>
+		<input type="radio" id="photo.png" name="php" value="false">
+		<label for="photo.png">photo.png</label>
+		<hr>
+		<h3>
+			<mark>Q5:</mark>
+		</h3>
+		<span>
+			SQL stands for:
+		</span>
+		<br>
+		<input type="radio" id="Structured Query Language" name="sql" value="true">
+		<label for="Structured Query Language">Structured Query Language</label>
+		<br>
+		<input type="radio" id="sorted query list" name="sql" value="false">
+		<label for="sorted query list">sorted query list</label>
+		<hr>
+	</form>
+	<form>
+		<h3 style="color:#1e4263;">please click on the <ins>transportation way</ins> that you have : </h3><br>
+		<input type="checkbox" id="v1" value="car" name="v1">
+		<label for="v1">I have a car.</label>
+		<br>
+		<input type="checkbox" id="v2" value="bike" name="v2">
+		<label for="v2">I have a bike.</label>
+		<br>
+		<input type="checkbox" id="v3" name="v3" value="boat">
+		<label for="v3">I have a boat.</label>
+		<br>
+		<input type="checkbox" id="v4" name="v4" value="none">
+		<label for="v4">none.</label>
+		<br><br>
+		<input type="submit" value="Save">
+		<br><hr>
+		
+	</form>
+	<!--post and get with Text with file handler-->
+	<form action="action_page.php" method="get" target="_blank">
+		<h1>Get With FileHandler</h1>
+		<label for="fName"><span class="color">Enter your first name : </span></label>
+		<input type="text" name="fName" id="fName" value="abood">
+		<br><br>
+		<label for="mName"><span class="color">Enter your middle name : </span></label>
+		<input type="text" name="mName" id="mName" value="mohammed">
+		<br>
+		<br>
+		<label for="lName"><span class="color">Enter your last name : </span></label>
+		<input type="text" name="lName" id="lName" value="odeh">
+		<br>
+		<br>
+		<label for="phone"><span class="color">Enter your Phone : </span></label>
+		<input type="text" name="phone" id="phone" value="079 0734575">
+		<br>
+		<br>
+		<input type="submit" value="Save Wtih Get Method">
+		<hr>
+	</form>
+	<form action="action_page.php" method="post" target="_blank">
+		<h1>Post With FileHandler</h1>
+		<label for="fName"><span class="color">Enter your first name : </span></label>
+		<input type="text" name="fName" id="fName" value="abood">
+		<br><br>
+		<label for="mName"><span class="color">Enter your middle name : </span></label>
+		<input type="text" name="mName" id="mName" value="mohammed">
+		<br>
+		<br>
+		<label for="lName"><span class="color">Enter your last name : </span></label>
+		<input type="text" name="lName" id="lName" value="odeh">
+		<br>
+		<br>
+		<label for="phone"><span class="color">Enter your Phone : </span></label>
+		<input type="text" name="phone" id="phone" value="079 0734575">
+		<br>
+		<br>
+		<input type="submit" value="Save Wtih post Method">
+		<hr>
+	</form>
+	<!--required-->
+	<form action="action_page.php" target="_blank" >
+		<h1>form with Required</h1>
+		<label for="firstName"><span class="color">Enter your first name : </span></label>
+		<input type="text" name="firstName" id="firstName" required>
+		<br><br>
+		<label for="mName"><span class="color">Enter your middle name : </span></label>
+		<input type="text" name="mName" id="mName" >
+		<br>
+		<br>
+		<input type="submit">
+		<hr>
+	</form>
+		<!--Novalidate-->
+	<form action="action_page.php" target="_blank" novalidate>
+		<h1>form with Novalidate</h1>
+		<label for="firstName"><span class="color">Enter your first name : </span></label>
+		<input type="text" name="firstName" id="firstName" >
+		<br><br>
+		<label for="mName"><span class="color">Enter your middle name : </span></label>
+		<input type="text" name="mName" id="mName" >
+		<br>
+		<br>
+		<input type="submit">
+		<hr>
+	</form>
+		<form action="action_page.php" target="_blank" novalidate>
+		<h1>form with Novalidate and Required</h1>
+		<label for="firstName"><span class="color">Enter your first name : </span></label>
+		<input type="text" name="firstName" id="firstName" required>
+		<br><br>
+		<label for="mName"><span class="color" required>Enter your middle name : </span></label>
+		<input type="text" name="mName" id="mName" >
+		<br>
+		<br>
+		<input type="submit">
+		<hr>
+	</form>
+		</form>
+		<form action="action_page.php" target="_blank" autocomplete="on">
+		<h1>form with autocomplete</h1>
+		<label for="firstName"><span class="color">Enter your first name : </span></label>
+		<input type="text" name="firstName" id="firstName" required>
+		<br><br>
+		<label for="mName"><span class="color" required>Enter your middle name : </span></label>
+		<input type="text" name="mName" id="mName" >
+		<br>
+		<br>
+		<input type="submit">
+		<hr>
+	</form>
+
+
+
+</body>
+</html>
